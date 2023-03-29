@@ -1,7 +1,6 @@
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@tailwind base;
 
 @layer base{
   /* you can add more generic style here */
