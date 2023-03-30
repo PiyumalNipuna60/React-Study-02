@@ -10,7 +10,7 @@ export default class HomePage extends Component {
     return (
       <div>
           <Header/>
-       <Content food="Kottu"/>
+       <Content/>
       </div>
     )
   }
