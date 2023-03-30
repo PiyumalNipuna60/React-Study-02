@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import userImage from "../../assets/user.png";
-import LogoutIcon from '@mui/icons-material/Logout';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 export default class Header extends Component {
   render() {
@@ -17,7 +17,7 @@ export default class Header extends Component {
             <h2 className='font-serif'>About</h2>
             <h2 className='font-serif'>Contact</h2>
             <img src={userImage} className='w-8 h-8'/>
-            <nav><LogoutIcon />
+            <nav><ExitToAppIcon />
             </nav>
             </nav>
           </div>
