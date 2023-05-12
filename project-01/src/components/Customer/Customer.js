@@ -8,6 +8,12 @@ type CustomerProps = {
 };
 
 export default class Customer extends Component <CustomerProps>{
+
+    // eslint-disable-next-line no-useless-constructor
+    constructor(props:CustomerProps){
+        super(props)
+    }
+
   render() {
     return (
       <div className='bg-gray-300 w-1/3 h-64 p-2 flex flex-col justify-center items-center m-3 rounded-2xl'>
