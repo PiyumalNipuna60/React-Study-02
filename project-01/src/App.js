@@ -1,5 +1,5 @@
 import './App.css';
-import Customer from './components/Customer/Customer';
+import Content from './components/Content/Content';
 import Header from './components/header/Header';
 
 
@@ -10,7 +10,7 @@ function App() {
     <div className="mt-7 mx-12">
          <div>
           <Header />
-          <Customer />
+          <Content />
          </div>
     </div>
   );
