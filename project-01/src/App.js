@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import HomePage from './pages/homePage/HomePage';
+import Header from './components/header/Header';
+
+
+
 
 function App() {
   return (
     <div className="mt-7 mx-12">
-      <HomePage />
+         <div>
+          <Header />
+         </div>
     </div>
   );
 }

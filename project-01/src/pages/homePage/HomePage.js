@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Content from '../../components/content/Content'
 import Header from '../../components/header/Header'
 
 
@@ -10,7 +9,11 @@ export default class HomePage extends Component {
     return (
       <div>
           <Header/>
-       <Content/>
+          <div className='m-4 border'>
+        <div className='mx-3'>
+           <h2 className=''> Home Page</h2>
+            </div>
+      </div>
       </div>
     )
   }
