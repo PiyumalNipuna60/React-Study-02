@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class AboutPage extends Component {
   render() {
     return (
-      <div>
-        <h2 className=''> About Page</h2>   
+      <div className=' m-auto'>
+        <h1 className=''> About Page</h1>   
       </div>
     )
   }

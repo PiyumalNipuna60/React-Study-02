@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import { NavLink } from 'react-router-dom';
 
 export default class Header extends Component {
   render() {
@@ -12,11 +13,24 @@ export default class Header extends Component {
           </div>
           <div className=' w-2/4 '>
             <nav className='flex gap-3 space-x-2 w-full justify-between'>
-            <h2 className='font-serif'>Home</h2>
-            <h2 className='font-serif'>About</h2>
-            <h2 className='font-serif'>Contact</h2>
-            <nav><ExitToAppIcon />
-            </nav>
+            <NavLink to={"/"}>
+              Home
+            </NavLink>
+
+            <NavLink to={"/about"}>
+              About
+            </NavLink>
+
+            <NavLink to={"/profile"}>
+              Profile
+            </NavLink>
+
+            <NavLink to={"contact"}>
+               Contact
+            </NavLink>
+
+            <NavLink to={"/login"}><ExitToAppIcon />
+            </NavLink>
             </nav>
           </div>
        

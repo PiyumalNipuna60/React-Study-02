@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class ProfilePage extends Component {
   render() {
     return (
-      <div>
-        <h2 className=''> Profile Page</h2>
+      <div className=' m-auto'>
+        <h1> Profile Page</h1>
       </div>
     )
   }
