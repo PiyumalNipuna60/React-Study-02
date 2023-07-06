@@ -1,18 +1,18 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 
-type CustomerProps = {
+type CustomerProps={
     id:String;
     name:String;
     address:String;
     salary:String;
-};
+}
 
 export default class Customer extends Component <CustomerProps>{
-
-    // eslint-disable-next-line no-useless-constructor
-    constructor(props:CustomerProps){
-        super(props)
-    }
+    
+     // eslint-disable-next-line no-useless-constructor, @typescript-eslint/no-useless-constructor
+constructor(props:CustomerProps){
+    super(props);
+}
 
   render() {
     return (
