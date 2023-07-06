@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Customer from '../customer/Customer'
+import Count from '../count/Count'
 
 export default class Content extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class Content extends Component {
         {...{id:"S004",name:"kasun",address:"colombo",salary:"25000"}}/>
 
 
-      
+      <Count {...{initValues:10}}/>
       </div>
     )
   }
