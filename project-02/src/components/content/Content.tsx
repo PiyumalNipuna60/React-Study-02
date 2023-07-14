@@ -11,7 +11,7 @@ import LoginPage from '../../pages/loginPage/LoginPage'
 export default class Content extends Component {
   render() {
     return (
-      <div className='flex pt-10'>
+      <div>
         {/* <Customer 
         {...{id:"S001",name:"piyumal",address:"galle",salary:"25000"}}/>
         <Customer 
