@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import { NavLink } from 'react-router-dom';
+import logo from "../../assets/logo.png";
 
 export default class Header extends Component {
   render() {
 
-    const navStyle="text-red-700  font-bold";
+    const navStyle="text-red-700  font-bold border-b-2 border-b-red-700";
 
     return (
-      <div className="bg-green-400 border-gray-200 px-4 h-16  dark:bg-gray-600 font-Poppins text-white  rounded-xl">
+      <div className="bg-green-400 border-gray-200 px-4 h-16  dark:bg-gray-600 font-Poppins text-white  rounded-xl ">
         <div className="w-full h-full drop-shadow-xl">
         <div className="flex w-full h-full items-center">
+        <img src={logo} alt='logo' className='w-16 h-16'/>
           <div className='w-1/2'>
           <h2>KTN Company</h2>
           </div>
