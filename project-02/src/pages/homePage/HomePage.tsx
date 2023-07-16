@@ -28,7 +28,7 @@ constructor(props:HomeProps){
   render() {
     return (
       <div className='flex m-auto p-5 justify-center gap-3'>
-        <Student id="S012" name="kamala" address="thangalla" subject={["D1","D2"]}/>
+        <Student id="S012" name="kamala" address="thangalla" subject={["matha","D2"]}/>
         {/* <Student />
         <Student /> */}
       </div>

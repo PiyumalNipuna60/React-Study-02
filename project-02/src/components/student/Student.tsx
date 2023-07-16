@@ -19,9 +19,16 @@ export default class Student extends Component<StudentProps, StudentState> {
           <h2 className='text-3xl'>{this.props.name}</h2>
           <p className='text-2xl'>{this.props.address}</p>
         <div className="flex mt-2 gap-4 justify-center">
-          <span className='p-3 border rounded'>{this.props.subject[0]}</span>
+          {/* <span className='p-3 border rounded'>{this.props.subject[0]}</span>
           <span className='p-3 border rounded'>Science</span>
-          <span className='p-3 border rounded'>Sinhala</span>
+          <span className='p-3 border rounded'>Sinhala</span> */}
+
+        {/* Loop using */}
+          {this.props.subject.map((sub)=>(
+           <span className='p-3 border rounded'>{sub}</span>
+          ))}
+
+
         </div>
         </Paper>
       </div>
