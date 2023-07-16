@@ -18,15 +18,19 @@ type HomeState={
 export default class HomePage extends Component<HomeProps,HomeState> {
 constructor(props:HomeProps){
  super(props);
- this.state={students:[{id:"S001",name:"nipuna",address:"galle",subject:["S1","S2","S3"]}]}
+ this.state={students:[
+   {id:"S001",name:"nipuna",address:"galle",subject:["S1","S2","S3"]},
+   {id:"S002",name:"kamal",address:"matra",subject:["S1","S2"]},
+   {id:"S003",name:"namal",address:"panadure",subject:["S1"]}
+  ]}
 }
 
   render() {
     return (
       <div className='flex m-auto p-5 justify-center gap-3'>
-        <Student />
-        <Student />
-        <Student />
+        <Student id="S012" name="kamala" address="thangalla" subject={["D1","D2"]}/>
+        {/* <Student />
+        <Student /> */}
       </div>
     )
   }
